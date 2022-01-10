@@ -1,0 +1,16 @@
+{
+  "name": "graphql-auth-jwt-sample",
+  "version": "1.0.0",
+  "description": "A sample code for a demo of graphQL authorization with JWT",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=dev&& node index.js"
+  },
+  "author": "Hendra Pratama",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.6.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
